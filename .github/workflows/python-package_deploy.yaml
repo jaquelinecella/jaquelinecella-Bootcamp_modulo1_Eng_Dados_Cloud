@@ -3,9 +3,6 @@
 
 name: Deploy
 
-on:
-  push:
-   name: Deploy
 
 on:
   push:
