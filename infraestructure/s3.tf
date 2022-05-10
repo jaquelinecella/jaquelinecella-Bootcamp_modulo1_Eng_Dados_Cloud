@@ -1,6 +1,6 @@
 resource "aws_s3_bucket" "dl" {
   #parâmetros de configuração do recurso escolhido
-  bucket = "datalake-jaqueline-igti-tf"
+  bucket = "datalake-jaque-igti-tf"
   acl    = "private"
 
 
@@ -20,8 +20,3 @@ resource "aws_s3_bucket" "dl" {
 }
 
 
-
-
-
-
-  
