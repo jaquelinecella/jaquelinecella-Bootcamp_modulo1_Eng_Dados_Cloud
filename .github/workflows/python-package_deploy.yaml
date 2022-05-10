@@ -5,9 +5,6 @@ name: Deploy
 
 
 on:
- name: Deploy
-
-on:
   push:
     branches: [master]
 
