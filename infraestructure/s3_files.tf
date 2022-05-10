@@ -5,3 +5,5 @@ resource "aws_s3_bucket_object" "job_spark" {
   source = "job_spark.py"
   etag   = filemd5("job_spark.py")
 }
+
+
