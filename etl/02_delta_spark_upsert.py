@@ -46,7 +46,8 @@ inscricoes = [200006271946,
             200004833505,
             200004570764,
             200001071590]
-
+## Pros arquivos subirem pro Lake tem que gerar o cluster, criar key no EC2 e então executar o teste do Lambda.
+# Aula 5.1. Data LakeHouse com Delta Lake e EMR. Módulo 1.
 
 logger.info("Reduz a 16 casos e faz updates internos no municipio de residencia")
 enemnovo = enemnovo.where(enemnovo.NU_INSCRICAO.isin(inscricoes))
