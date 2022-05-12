@@ -85,7 +85,7 @@ resource "aws_iam_role_policy_attachment" "lambda_attach" {
    description = "Provides write permissions to CloudWatch Logs and S3"
 
    policy = <<EOF
- {
+{
      "Version": "2012-10-17",
      "Statement": [
          {
@@ -124,7 +124,7 @@ resource "aws_iam_role_policy_attachment" "lambda_attach" {
  resource "aws_iam_role_policy_attachment" "firehose_attach"{
    role       = aws_iam_role.firehose_role.name
    policy_arn = aws_iam_policy.firehose.arn
- }
+}
 
 ###############
 ## GLUE ROLE ##
