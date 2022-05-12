@@ -118,7 +118,7 @@ resource "aws_iam_role_policy_attachment" "lambda_attach" {
      ]
  }
  EOF
- }
+}
 
 
  resource "aws_iam_role_policy_attachment" "firehose_attach"{
