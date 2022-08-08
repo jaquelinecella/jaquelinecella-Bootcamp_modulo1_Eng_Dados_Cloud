@@ -5,8 +5,7 @@
  
 ## Description
 
-1) First Part: In this part of the project I've created the files that contain archives with terraform extensions(.tf), the resources to it comunicates with AWS services(including Lambda), archives with workflows codes (deploy and test)
-
+1) First Part: In this part of the project I've created the files with yaml and Terrafom codes to configurate a worflow with Git Actions to up an AWS infrastructure. This infrastructure has a bucket S3 to storage, a Lambda Function that up a cluster EMR to execute a Job Spark to read a table(csv format)from bucket(raw-data) and write this table in Delta Format at the same bucket, but in staging-zone. Ath the same time, I've changed some registrations in staging-zone table(delta format).To conclude, I opened a Jupyter notebook in cluster EMR to verify if the changes were written correctly and I've deleted the infrastructure with Terraform, after the confirmation that everything was correct.
  
 ## Tools Used 
 
