@@ -49,7 +49,17 @@ Obs: This Readme was created after I've finished the tests and excluded the infr
 
 ## Architecture
 
-add image here
+This Architecture was used in the First Part of the Project:
+
+ <div align=<"center"> 
+ <image src= "https://user-images.githubusercontent.com/93526685/184159437-2034ed66-b9dd-4d2a-a52a-ebf35fd355c7.png" width="600px" />
+ </div> 
+ 
+This Architecture was used in the Second Part of the Project: 
+ 
+  <div align=<"center"> 
+ <image src= "https://user-images.githubusercontent.com/93526685/184159642-3ab4bcfe-17c4-4c36-bddb-f810628a9044.png" width="600px" />
+ </div> 
  
  
 ## Autor
