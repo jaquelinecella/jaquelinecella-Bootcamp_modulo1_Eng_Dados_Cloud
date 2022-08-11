@@ -52,7 +52,10 @@ Obs: This Readme was created after I've finished the tests and excluded the infr
 add image here
  
  
-## Author
+## Autor
 
-add my credentials
+Jaqueline Cella
+
+* Linkedin- @jaqueline-cella
+* Github- @jaquelinecella
 
