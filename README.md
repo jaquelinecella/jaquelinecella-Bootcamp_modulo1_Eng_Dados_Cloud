@@ -8,7 +8,7 @@
 1) First Part: In this part of the project I've created the files with yaml and Terrafom codes to configurate a worflow with Git Actions to up an AWS infrastructure. This infrastructure has a bucket S3 to storage, a Lambda Function that up a cluster EMR to execute a Job Spark to read a table(csv format)from bucket(raw-data) and write this table in Delta Format at the same bucket, but in staging-zone. Ath the same time, I've changed some registrations in staging-zone table(delta format). To conclude, I've opened a Jupyter notebook in cluster EMR to verify if the changes were written correctly and I've deleted the infrastructure with Terraform, after the confirmation that everything was correct.
 2) Second Part: In this part of the project I've used a fake data simulator to conect with AWS Kinesis and storage this streaming data in S3. I've used the same structure that I had used in the First Part, but I've opted to created another bucket to storage the streaming data. To Kinesis I've created a file called "kinesis.tf" to create resources, cloudwatch options and firehose configurations. The firehose is a delivery streaming, but it's more similar with a mini-batch delivery that a real time. I've inserted the buffer condition to 5mb or 60 seconds.These data was simulated with fake_web_events library that were writing in Python, after that these data were sent to bucket in json format, then the Glue Crawler understand the format and I could use SQL in Athena to do some queries.
 
-## Tools Used 
+## Used Tools 
 
 * Terraform;
 * Git Actions;
