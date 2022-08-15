@@ -24,17 +24,17 @@
 * AWS Kinesis;
 * AWS CloudWatch.
 
-## Instalation
+## How to Use
 
-In terminal you need type:
+To use this structure you need to follow the steps below:
 * First Part:
   1) Download Visual Studio Code(VSC) and after, AWS Cli, Terraform, Python, Git and anything else if the program asks;
-  2) You can use another tool instead VSC;
+  2) You can use another code editor instead of VSC;
   2) You need to clone this repository and open a new repository in your Github;
   3) Rename the resources that are with my personal name. For exemplo: the bucket;
   4) Manually create the bucket that is in the "provider.tf" file. This is the only bucket that needs to be created manually;
   5) Manually create a Key Pair in EC2 and change it in file "lambda_function";
-  6) Manually copy the "Subnet ID" in cluster EMR;
+  6) Manually copy the number of "Subnet ID" in EMR;
   7) Go to Lambda Function, click in "test", choose a name, can be the default, save and click in test. This step is just to test de "lambda_function.py". At this moment the cluster EMR is starting;
   7) Go to Settings/Secrets on Github to configure your AWS secret keys;
   8) Create a "dev" branch to work safely;
