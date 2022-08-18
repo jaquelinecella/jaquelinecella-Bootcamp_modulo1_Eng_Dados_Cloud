@@ -2,6 +2,8 @@
 ## Introduction
  
   The objective of this project is to automate a cloud infrastructure and enable a continuous integration(CI) an continuous delivery(CD) that allows it to be possible to work in groups with security and agility.
+  
+  **This readme was created after I've finished the tests and I've deleted the infrastructure, so the workflow will have a lot of test errors. Please disregard these errors**.
  
 ## Description
 
@@ -62,7 +64,6 @@ To use this structure you need to follow the steps below:
 
 Automation of a cloud infrastructure, increased speed and security of processes, and writing of files in Delta Lake format that allow for faster queries and changes within Big Data tables.
 
-This readme was created after I had finished the tests and excluded the infrastructure, because of this reason the workflow will have some test errors.
 
 ## Architecture
 
